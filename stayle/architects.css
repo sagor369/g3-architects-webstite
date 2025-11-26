@@ -42,6 +42,10 @@ main >section{
   margin-top: 130px;
 
 }
+.section-title{
+  font-size: 50px;
+  font-weight: 700;
+}
 /* shared styles end */
 /* header styles stard */
 
@@ -105,10 +109,7 @@ main >section{
   margin-left: 130px;
   max-width: 530px;
 }
-.features-title{
-  font-size: 50px;
-  font-weight: 700;
-}
+
 #quik-list{
   font-weight: 500;
 }
@@ -136,7 +137,15 @@ main >section{
     padding: 0 15px;
   }
 }
-
+/* medium size device */
+@media screen and (min-width: 576px) and (max-width: 992px){
+  .teams{
+    flex-direction: column;
+  }
+  .uor-features{
+    margin-left: 50px auto;
+  }
+}
 
 
 
